@@ -1,0 +1,100 @@
+{
+	"banner": {
+		"title": "About",
+		"description": "Mountain Nature Retreat & Community",
+		"link": "https://pixelvj-app.herokuapp.com",
+		"background_image": [
+			"https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/07/about-banner2.jpg"
+		]
+	},
+	"about_vaatalya": {
+		"title": "Our Calling | Our Mission",
+		"description": "<p>We believe that finding sanctuary and connection in the natural world is essential to our wholeness and wellness as individuals and as a community. Our work is a part of our effort to make vibrant and essential contributions toward a more reciprocal and balanced relationship between the human community &amp; the natural world.</p>\n<p>We believe that finding sanctuary and connection in the natural world is essential to our wholeness and wellness.</p>\n",
+		"image_url": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/06/our-calling.jpg",
+		"image_alt": "our-calling",
+		"image_title": "our-calling"
+	},
+	"host_vaatalya": {
+		"title": "Host & Flunky",
+		"background_image": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/06/host-flunky.jpg",
+		"host_data": [
+			{
+				"profile_image": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/06/creator.png",
+				"slug": "pavan_sharma",
+				"image_alt": "Pavan Sharama",
+				"name": "Pavan Sharama",
+				"designation": "Creator"
+			},
+			{
+				"profile_image": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/06/strenth.png",
+				"slug": "Indu",
+				"image_alt": "Indu",
+				"name": "Indu",
+				"designation": "Strength"
+			},
+			{
+				"profile_image": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/06/bridge.png",
+				"slug": "deepika",
+				"image_alt": "Deepika",
+				"name": "Deepika",
+				"designation": "Bridge"
+			},
+			{
+				"profile_image": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/06/planner.png",
+				"slug": "aditya",
+				"image_alt": "Aditya",
+				"name": "Aditya",
+				"designation": "Strategist"
+			},
+			{
+				"profile_image": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/06/family.png",
+				"slug": "Family",
+				"image_alt": "Family",
+				"name": "Family",
+				"designation": "Love"
+			}
+		]
+	},
+	"history": {
+		"title": "Our History in the Making ",
+		"description": "<p><span style=\"font-weight: 400;\">Vaatalya was born from our personal visions of a family of four for creative freedom, self expression, nature healing, permaculture and community. We gathered courage in a decade long journey to turn against habitual lifestyle and engage in unconventional living with nature. Our work is a part of our effort to make vibrant and essential contributions toward a more reciprocal and balanced relationship between the human community &amp; the natural world.</span></p>\n"
+	},
+	"page_data": [
+		{
+			"slug": "our-venue-our-home",
+			"id": 260,
+			"page_title": "Our Venue |  Our Home",
+			"page_content": "<p>​We are situated on a nine acre hilltop disconnected from the city. Surrounded by dense reserve forests of deodar, pine & oak's we have 360 degree oceanic view of the Himalayas with planetarium view of the sky & a promise of no two evenings alike.</p>\n",
+			"media_url": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/07/9-acres-space-.jpg"
+		},
+		{
+			"slug": "eco-initiative",
+			"id": 264,
+			"page_title": "Eco Impact & Initatives",
+			"page_content": "<p>Permaculture is a design process, based in observation and systems thinking, that helps people to create ecologically and socially sustainable human settlements beneficial to the people and to the ecosystems within which they are nested.</p>\n",
+			"media_url": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/07/Farming-WE-do--e1563367080820.jpg"
+		},
+		{
+			"slug": "vermiculture",
+			"id": 266,
+			"page_title": "Vermiculture",
+			"page_content": "<p>Vermiculture is the process of garden composting using worms. Overtime, all organic material naturally goes through the process of decomposition. However, with vermiculture, the process is significantly accelerated. </p>\n",
+			"media_url": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/07/Vermiculture.jpg"
+		},
+		{
+			"slug": "herbal-aromatic-plants",
+			"id": 268,
+			"page_title": "Herbal | Aromatic Plants",
+			"page_content": "<p>Rosemary was traditionally used to help alleviate muscle pain, improve memory, boost the immune and circulatory system, and promote hair growth. Rosemary is a perennial plant (it lives more than 2 years). Possible health benefits include improved concentration, digestion, and brain aging</p>\n",
+			"media_url": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/07/Bergenia-ciliata.jpg"
+		},
+		{
+			"slug": "sustanable-architecture",
+			"id": 270,
+			"page_title": "Sustanable Architecture",
+			"page_content": "<p>The design, construction & architect of retreat is done by the hosts themselves  with the help of local artisans. The know-how of the construction is passed to the local artisans from generation to generation in mostly oral and empirical tradition by working as an apprentice for a number of years. We have blended this ancient form of architecture with have good use of the modern facilities to ensure that we do not compromise on the basic comfort of life. </p>\n",
+			"media_url": "https://tech.pixelvj.com/vaatalya/wp-content/uploads/2019/07/Eco-Archi-e1563368320225.jpg"
+		}
+	],
+	"SEO": "<title>About Us</title>\n\n<meta name='description' content=''/>\n<link rel='canonical' href='' />\n<meta property='og:locale' content='en-IN' />\n<meta property='og:type' content='website' />\n<meta property='og:title' content='' />\n<meta property='og:description' content='' />\n\n<meta property='og:url' content='' />\n<meta property='og:site_name' content='vaatalya' />\n<meta property='og:image' content='' />\n<meta name='twitter:card' content='summary' />\n<meta name='twitter:description' content='' />\n<meta name='twitter:title' content='' />\n<meta name='twitter:image' content='' />\n"
+}

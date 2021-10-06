@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://www.ixifly.in/xyzalpha-dev/assets/image/new-favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/fonts/fonts.googleapis.css22261.css?family=Open+Sans:wght@300;400;600;700&amp;display=swap" >
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/style.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/responsive.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/js/jquery-2.2.4.min.js"></script> 
+    <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>    
+    <script src="%PUBLIC_URL%/js/owl.carousel.min.js"></script>   
+    <script src="%PUBLIC_URL%/js/custom.js"></script> 
+    <script src="%PUBLIC_URL%/js/home_slide.js"></script>
+  </body>
+</html>
+<script>
+  $(document).ready(function(){
+    function openCity (evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("defaultOpen").click();
+  }); 
+</script>

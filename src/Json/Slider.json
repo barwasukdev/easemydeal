@@ -1,0 +1,25 @@
+{
+    "top_gift_cards": {
+      "title": "Offer",
+      "content": "Offer Image",
+      "image": [
+        {
+          "image_url": "https://www.ixifly.in/easemydeal/assets/images/Discount%20Offer.jpg",
+          "title": "Discount"
+        },
+        {
+          "image_url": "https://www.ixifly.in/easemydeal/assets/images/Promo%20Code.jpg",
+          "title": "Promo Code"
+        },
+        {
+          "image_url": "https://www.ixifly.in/easemydeal/assets/images/Discount%20Code.jpg",
+          "title": "Discount"
+        },
+        {
+          "image_url": "https://www.ixifly.in/easemydeal/assets/images/Offer%20Code.jpg",
+          "title": "Life Style"
+        }
+      ]
+    }
+  }
+  

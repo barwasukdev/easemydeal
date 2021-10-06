@@ -1,0 +1,340 @@
+@media (max-width: 767px) {
+	header {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		box-shadow: 0 1px 4px 0 rgba(0,0,0,.12);
+		height: 67px;
+		padding: 0 8px;
+		box-sizing: border-box;
+		z-index: 999;
+		background: #fff;
+	}
+	#gBurger {
+		cursor: pointer;
+		width: 32px;
+		display: inline-block;
+		vertical-align: top;
+		height: 60px;
+		padding-top: 14px;
+		padding-left: 0;
+	}
+	.notifications {
+		width: 40px;
+		position: relative;
+		float: left;
+		margin-right: 15px;
+		margin-top: 10px;
+	}
+	#gBurger > span {
+		width: 22px;
+		height: 2px;
+		border-radius: 10px;
+		background-color: #515151;
+		display: block;
+		margin-bottom: 4px;
+	}
+    .top-banner {
+        width: 100%;
+        background-color: #fff;
+        padding: 30px 0px 10px 0px;
+        margin-top: 55px;
+    }
+    .verticla-tabs {
+        width: 100%;
+        padding: 20px 0px;
+        background: linear-gradient(to bottom,#f1f5f8,#dfe8ef);
+    }
+	/*mobile menu*/
+	.menu {
+		display: none;
+	}
+	.my-sidenav {
+		width: 0px;
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0px;
+		overflow-x: hidden;
+		z-index: 999999999;
+		height: 100vh;
+		max-width: 0px;
+		width: 100%;
+		background-color:#fff;
+		transition: 0.5s;
+		-webkit-transition: 0.5s;
+	}
+	.my-sidenav>ul {
+		padding: 0px 20px 0px;
+	}
+	.my-sidenav>ul>li>ul {
+		margin-top: 0px;
+		display: none;
+	}
+	.my-sidenav ul.submenu li ul.submenu {
+		display: none;
+		position: static;
+		width: 100%;
+	}
+	.my-sidenav ul {
+		list-style-type: none;
+		padding-left: 15px;
+	}
+	.my-sidenav ul li
+	{
+		border-bottom: 1px solid #000;
+		padding: 15px 0px;
+	}
+	.my-sidenav > ul > li > ul >li
+	{
+		border-bottom: 1px solid #000;
+		padding: 10px 0px;
+	}
+	.my-sidenav > ul > li > ul >li:last-child, .my-sidenav ul.submenu li ul.submenu li:last-child
+	{
+		border-bottom: 0px;
+	}
+	.my-sidenav ul.submenu li ul.submenu li {
+		border-bottom: 1px solid #000;
+		padding: 10px 10px;
+	}
+	.my-sidenav ul.submenu li ul.submenu li a {
+		color: #000;
+		font-size: 16px;
+	}
+	.cross-btn1 {
+		text-align: right;
+		padding: 16px 14px 0px 0px;
+		color: #000;
+		font-size: 35px;
+		cursor: pointer;
+	}
+	.my-sidenav .submenu-indicator-minus .submenu-indicator {
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.my-sidenav .submenu-indicator {
+		font-size: 30px;
+		position: absolute;
+		line-height: 25px;
+		right: 15px;
+	}
+	.my-sidenav>ul>li>a {
+		color: #000;
+		font-size:18px;
+		display:block;
+		font-weight: 600;
+	}
+	.my-sidenav>ul>li>ul>li>a {
+		color: #000;
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.my-sidenav>ul>li>ul>li.menu-drp1>a
+	{
+		font-weight: 600;
+		font-size: 16px;
+	}
+	.my-sidenav>ul>li>ul>li>a img
+	{
+		padding-right: 10px;
+		float: right;
+	}
+	/**/
+	.offer-tabs .nav-tabs > li.active > a, .offer-tabs .nav-tabs > li.active > a {
+		font-size: 16px;
+		line-height: 24px;
+		color: #de4b39;
+		background-color: #fff;
+		border: 0px solid #e6e6e6;
+		border-bottom: 0px solid #000;
+		font-weight: 500;
+	}
+	.offer-tabs .nav-tabs > li > a {
+		margin-right: 0;
+	}
+	.offer-tabs .nav-tabs {
+		border-bottom: 0px solid #ddd;
+		width: 100%;
+		display: flex;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		background-color: #fff;
+	}
+	.offer-tabs .nav-tabs > li {
+		text-align: center;
+		float: left;
+		margin-bottom: -1px;
+		width: auto;
+	}
+	.offer-tabs .nav-tabs > li > a {
+		font-size: 16px;
+		line-height: 24px;
+		color: #000;
+		border: 0px solid #e6e6e6;
+		margin-right: 0;
+		padding: 10px 20px 0px 20px;
+		font-weight: 500;
+		border-bottom: 0px solid #f4f4f4;
+	}
+	/**/
+	.left-off {
+		border-radius: 4px;
+		background-color: #f0f2f5;
+		color: #515151;
+		font-size: 18px;
+		text-align: center;
+		width: 65%;
+		float: left;
+		padding: 20px;
+	}
+	.right-off {
+		width: 35%;
+		float: left;
+	}
+	/**/
+	.tab {
+		float: none;
+		max-width: 100%;
+		height: auto;
+		margin-right: 30px;
+		border-radius: 6px;
+		border-bottom: 0px solid #ddd;
+		width: 100%;
+		display: flex;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		background-color: #fff;
+	}
+	.tabcontent {
+		float: none;
+		padding: 0px;
+		border: 0px solid #ccc;
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+	}
+	.tab button img {
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background: #efefef;
+		display: block;
+		margin: 0px auto;
+	}
+	.footer-in-widget {
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+	/**/
+	.verticlal-tab-in{
+		margin-bottom: 30px;
+	}
+.top-v-left {
+    border-radius: 4px;
+    background-color: #f0f2f5;
+    color: #515151;
+    font-size: 14px;
+    text-align: center;
+    width: 60%;
+    float: left;
+    padding: 10px 10px;
+}
+.top-v-right {
+    width: 40%;
+    float: left;
+}
+.top-v-left p {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.2;
+    position: relative;
+}
+.verticlal-tab-in {
+    margin-bottom: 15px;
+}
+.verticlal-tab-in {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0 rgba(17,19,35,.08);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s ease;
+    padding: 8px;
+}
+.top-v-left p span {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-weight: 500;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    display: block;
+    transform: unset;
+}
+	.voucher-listing {
+        width: 100%;
+        display: inline-block;
+        padding: 50px 0px;
+        margin-top: 40px;
+    }
+    .filter_top {
+        width: 100%;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    /**/
+  #couponmodal .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0;
+}
+#couponmodal .modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 0px solid rgba(0,0,0,.2);
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    height:100vh;
+}
+.full-width h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.buy-btn a {
+    font-size: 13px;
+    padding: 10px 10px;
+    background-color: #de4b39;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.popupright p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+.inside-forms {
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+        border: 1px solid #e7e5e5;
+        padding: 30px 30px;
+        margin-top: 60px;
+    }
+}

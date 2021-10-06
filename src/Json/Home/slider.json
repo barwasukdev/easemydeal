@@ -1,0 +1,90 @@
+{
+  "offers_slider": {
+    "title": "Offers",
+    "content": "India's Leading Coupons & Deals Marketplace",
+    "image": [
+      {
+        "image_url": "https://www.inditab.com/assets/image/off-1.jpg",
+        "title": ""
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/off-2.jpg",
+        "title": ""
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/off-3.jpg",
+        "title": ""
+      }
+    ]
+  },
+
+  "top_gift_cards": {
+    "title": "Top Gift Card",
+    "content": "Top Gift Card Content",
+    "image": [
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/book-myshow.jpg",
+        "title": "Book My Show"
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/flipcart-gift.jpg",
+        "title": "FlipKart"
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/big-bazzar.png",
+        "title": "Big Bazaar"
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/life-style.jpg",
+        "title": "Life Style"
+      }
+    ]
+  },
+
+  "testimonials_slider": {
+    "title": "Testimonials",
+    "content": "Testimonials Content",
+    "image": [
+      {
+        "name": "Yogesh",
+        "description": "Simple process to book flight ticket. I also got 100 cashback points which i redeemed for the recharge."
+      },
+      {
+        "name": "Manish",
+        "description": "Thankyou for your assistance to get my passport. you guys made the process easy for me."
+      },
+      {
+        "name": "Asha",
+        "description": "My Vodafone Recharge was done in quick time."
+      },
+      {
+        "name": "Umesh",
+        "description": "I recharged my Airtel DTH with them and it was good experience."
+      }
+    ]
+  },
+
+  
+  "clients_associations": {
+    "title": "Clients and associations",
+    "content": "Clients and associations",
+    "image": [
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/book-myshow.jpg",
+        "title": "Book My Show"
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/flipcart-gift.jpg",
+        "title": "FlipKart"
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/big-bazzar.png",
+        "title": "Big Bazaar"
+      },
+      {
+        "image_url": "https://www.inditab.com/assets/image/recharge/life-style.jpg",
+        "title": "Life Style"
+      }
+    ]
+  }
+}

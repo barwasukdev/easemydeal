@@ -1,0 +1,550 @@
+
+
+.inputFlightSize .form-control::placeholder {
+	color: #000;
+}
+
+.inputFlightSize .remove-border .t-dates {
+	color: #000;
+}
+
+.serchDrop {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .2);
+	width: 316px;
+	position: absolute;
+	left: 0;
+	top: 59px;
+	min-height: 316px;
+	overflow-y: scroll;
+	height: 320px;
+	z-index: 999999
+}
+
+.FlightNewDrop.serchDrop {
+	top: 80px
+}
+
+.FlightNewDropList.searchedList li {
+	background-color: #e9edf1;
+}
+
+.FlightNewDropList.searchedList li:hover {
+	background-color: #dde8f3;
+	border-left: 2px solid #acbdce;
+}
+
+.FlightNewDropList li .leftFull p {
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+}
+
+.FlightNewDropList li .leftFull p span {
+	display: block;
+	color: #999;
+	font-size: 14px;
+	line-height: 12px;
+	font-weight: 300;
+}
+
+.searchHead input {
+	padding: 5px 10px;
+	outline: 0;
+	border: 0;
+	width: 100%;
+	font-size: 16px;
+	color: #000;
+	font-weight: 700;
+	background: #fff;
+	-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+	height: 45px
+}
+
+.searchHead h3 {
+	font-size: 16px;
+	line-height: 16px;
+	padding: 10px 10px 10px 10px;
+	color: #9b9b9b;
+	font-weight: 700;
+}
+
+.leftFull {
+	width: calc(100% - 70px);
+	float: left
+}
+
+.leftFull p {
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+}
+
+.searchHead {
+	width: 100%;
+	display: inline-block;
+}
+
+.leftFull p span {
+	display: block;
+	color: #9b9b9b;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 300;
+}
+
+.searchedList {
+	list-style: none;
+	padding: 0
+}
+
+.rightShort p {
+	font-size: 14px;
+	color: #9b9b9b;
+	line-height: 39px;
+	font-weight: 700;
+	text-align: right
+}
+
+.searchedList li:hover {
+	background-color: #f2f2f2
+}
+
+.searchedList li {
+	padding: 3px 10px;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid rgba(228, 228, 228, 0.2);
+}
+
+.searchedList li:first-child {
+	margin-top: 5px;
+}
+
+.t-table-condensed {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	vertical-align: top
+}
+
+.t-next,
+.t-prev,
+.t-table-condensed td,
+.t-table-condensed th {
+	text-align: center;
+	padding: 5px 10px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700
+}
+
+.t-date-title {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	padding: 15px 0 10px;
+	color: #e91e63
+}
+
+.t-day,
+.t-disabled,
+.t-end,
+.t-range,
+.t-start {
+	border-width: 2px;
+	border-style: solid
+}
+
+.t-arrow {
+	border: none
+}
+
+.t-hover-day::after,
+.t-special-day:before {
+	content: '';
+	border-style: solid
+}
+
+.t-arrow,
+.t-dates,
+.t-day,
+.t-end,
+.t-end-limit,
+.t-range,
+.t-start {
+	cursor: pointer
+}
+
+.t-special-day {
+	position: relative
+}
+
+.t-special-day:before {
+	height: 3px;
+	width: 3px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	display: block;
+	border-width: 3px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box
+}
+
+.t-hover-day {
+	position: relative
+}
+
+.t-hover-day-content {
+	top: -30px;
+	width: 70px;
+	right: calc(50% - 35px);
+	position: absolute;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 3px 5px;
+	border-radius: 4px;
+	z-index: 9999
+}
+
+.t-today .t-hover-day-content {
+	z-index: 9998
+}
+
+.t-check-in .t-end-limit,
+.t-disabled {
+	opacity: .25;
+	cursor: auto
+}
+
+.t-check-in,
+.t-check-out {
+	border-color: #ddd
+}
+
+.t-check-in.selected,
+.t-check-out.selected {
+	border-color: #afafaf
+}
+
+.t-special-day:before {
+	border-color: #e91e63 #e91e63 transparent transparent
+}
+
+.t-datepicker-day {
+	border-color: #ededed;
+	background: #fff
+}
+
+.t-day,
+.t-disabled,
+.t-end,
+.t-range,
+.t-start {
+	background: #fff;
+	border-color: #fff
+}
+
+.t-disabled {
+	background: 0 0
+}
+
+.t-highlighted.t-disabled {
+	background: #fff
+}
+
+.t-end,
+.t-end-limit,
+.t-start {
+	color: #fff;
+	background: #11b3f1
+}
+
+.t-range,
+.t-range-limit {
+	color: #59caf5
+}
+
+.t-range {
+	background: #e9f8fe
+}
+
+.t-range-limit {
+	background: #d1f0fc
+}
+
+.t-range-limit.t-end,
+.t-range-limit.t-start {
+	color: #fff;
+	background: #89d9f8
+}
+
+.t-check-in .t-end,
+.t-check-out .t-start,
+.t-check-out tr~.t-end {
+	color: #fff;
+	background: #11b3f1
+}
+
+.t-hover-day,
+.t-hover-day-content,
+.t-hover-day:hover {
+	color: #fff;
+	background: #59caf5
+}
+
+.t-hover-day::after {
+	position: absolute;
+	top: -8px;
+	right: calc(50% - 7px);
+	border-width: 7px;
+	border-color: #59caf5 transparent transparent
+}
+
+.t-today,
+.t-today .t-hover-day-content {
+	background: #aeaeae
+}
+
+.t-today::after {
+	border-top-color: #aeaeae
+}
+
+.t-today:hover,
+.t-today:hover .t-hover-day-content {
+	background: #59caf5
+}
+
+.t-today:hover::after {
+	border-top-color: #59caf5
+}
+
+.t-end.t-today,
+.t-start.t-today {
+	color: #fff
+}
+
+.t-end.t-today,
+.t-end.t-today .t-hover-day-content,
+.t-start.t-today,
+.t-start.t-today .t-hover-day-content {
+	background: #11b3f1
+}
+
+.t-end.t-today::after,
+.t-start.t-today::after {
+	border-top-color: #11b3f1
+}
+
+.t-datepicker-day {
+	border-width: 1px;
+	border-style: solid;
+	top: 77px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 9998;
+	padding: 10px 0;
+	border-radius: 4px;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, .25);
+	border-color: #ededed;
+	background: #fff;
+}
+
+.t-next,
+.t-prev,
+.t-table-condensed td,
+.t-table-condensed th {
+	text-align: center;
+	padding: 5px 10px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #333;
+}
+
+
+/*search end*/
+
+@media (min-width:1281px) {
+	.topBannerFlight {
+		min-height: 216px;
+	}
+	.inputFlightSize {
+		max-width: 23.6%;
+		float: left;
+		width: 100%;
+		margin-right: 12px;
+		position: relative;
+	}
+	.active_trip {
+		background-color: #1253a6 !important;
+		border: 1px solid #1253a6 !important;
+		color: #fff !important;
+	}
+	.short_desc {
+		margin-bottom: 30px;
+		max-height: 46px;
+		overflow: hidden;
+	}
+	.FlightBannerContent {
+		position: static;
+		top: 184px;
+		left: 0;
+		right: 0;
+		padding: 0px;
+		margin-top: -4px;
+	}
+	.all_rechare_list {
+		width: 100%;
+		display: inline-block;
+		padding: 0px 75px;
+	}
+	.topBannerFlight {
+		width: 100%;
+		display: inline-block;
+		/* background-image: url(image/inditab-flight-search.html); */
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 207px;
+	}
+}
+
+.lazy_blur {
+	background-color: #c1bebe;
+	filter: blur(10px);
+	transition: all 1s;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+}
+.left_some_text img {
+    height: 34px;
+    float: left;
+    position: absolute;
+    top: -6px;
+    width: 49.34px;
+}
+
+/*datepicker*/
+
+@media (max-width:480px) {
+	.t-datepicker-days {
+		width: 300px
+	}
+	.t-datepicker-days .t-table-wrap {
+		margin-left: 0;
+		width: 100%;
+		padding: 0 10px
+	}
+}
+
+@media (max-width:320px) {
+	.t-datepicker-days {
+		width: 290px
+	}
+	.t-datepicker-days .t-table-wrap {
+		padding: 0 5px
+	}
+}
+
+@keyframes ticker {
+	0% {
+		margin-top: 0
+	}
+	25% {
+		margin-top: -20px
+	}
+	50% {
+		margin-top: -40px
+	}
+	75% {
+		margin-top: -60px
+	}
+	100% {
+		margin-top: 0
+	}
+}
+
+.news {
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+	margin-left: 72px;
+	overflow: hidden;
+	-webkit-user-select: none
+}
+
+.news span {
+	float: left;
+	color: #fff;
+	padding: 0;
+	position: relative;
+	top: 0;
+	border-radius: 4px;
+	box-shadow: inset 0 -15px 30px rgba(0, 0, 0, .4);
+	-webkit-font-smoothing: antialiased;
+	-webkit-user-select: none;
+	cursor: pointer
+}
+
+.news ul {
+	display: inline-block;
+	width: 100%;
+	animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+	-webkit-user-select: none
+}
+
+.news ul li {
+	line-height: 20px;
+	list-style: none
+}
+
+.news ul li a {
+	color: #000;
+	font-size: 14px;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-user-select: none;
+	line-height: 1;
+	font-weight: 600;
+	text-align: left
+}
+
+.news ul:hover {
+	animation-play-state: paused
+}
+
+.news span:hover+ul {
+	animation-play-state: paused
+}
+
+.sign_in.close img {
+	width: 32px;
+	margin-right: 4px;
+	margin-top: -10px;
+}
+
+.bbps_logod img {
+	width: 29px;
+}
+
+.bbps_logod {
+	width: 43px;
+	float: right;
+	margin-top: -12px;
+}
+
+
